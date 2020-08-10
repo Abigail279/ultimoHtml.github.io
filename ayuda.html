@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda</title>
+    <!--- link de aleacion -->
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css>
+
+    <!--link tipos de fuente-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Pacifico&family=Scheherazade:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- nuestro estilo es la ultima dependencia que llamamos-->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="animate__animated animate__slideInLeft  animate__delay-5s  animate__duration__4s  animate__repeat-3">
+            Ayuda</h1>
+        <h2 class="animate__animated animate__flipInX  animate__delay-5s  animate__duration__4s  animate__repeat-3">
+            Damaris Abigail Araiza Ruiz</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="galery.html">Fotos</a></li>
+            <li><a href="ayuda.html">Ayuda</a></li>
+        </ul>
+    </nav>
+
+    <main class="ayuda">
+        <div class="formulario">
+            <form action="">
+
+                <fieldset>
+                    <legend>Persona</legend>
+
+                    <label for="Name">Nombre:</label>
+                    <br>
+                    <input type="text" name="" id="Name">
+                    <br>
+
+                    <label for="Ap-Paterno">Apellido Paterno</label>
+                    <br>
+                    <input type="text" name="" id="Ap-Paterno">
+                    <br>
+
+                    <label for="Ap-Materno">Apellido Materno</label>
+                    <br>
+                    <input type="text" name="" id="Ap-Materno">
+                    <br>
+
+                    <label for="Correo">Correo</label>
+                    <br>
+                    <input type="email" name="" id="correo">
+                    <br>
+
+                    <select name="Sexo" id="Sexo">
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+
+                    
+                    <br>
+                    <label for="Comentario">Comentario:</label>
+                    <textarea name="mensaje" id="Comentario" cols="30" rows="5"></textarea>
+                    <br>
+
+                    <label for="Pregunta">Como fue la visita al sitio web</label>
+                    <hr>
+                    <br>
+
+                    <input type="radio" name="Buena" id="Buena">
+                    <label for="Buena">Buena</label>
+
+                    <input type="radio" name="Regular" id="Regular">
+                    <label for="Buena">Regular</label>
+
+                    <input type="radio" name="Mala" id="Mala">
+                    <label for="Buena">Mala</label>
+
+
+                    <br>
+                    <button type="submit" onclick="alert('Tu comentario se ha enviado')">Enviar</button>
+
+
+                </fieldset>
+
+
+
+
+
+
+
+                <!-- <label for="Sexo">Sexo</label>
+                <hr>
+                <br>
+
+                <input type="checkbox" name="" id="Hombre">
+                <label for="Hombre">Hombre</label>
+
+                <input type="checkbox" name="" id="Mujer">
+                <label for="Mujer">Mujer</label> -->
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&reg;Drechos reservados 2010-2020</p>
+    </footer>
+
+
+</body>
+</html>
